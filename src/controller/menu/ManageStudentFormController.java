@@ -4,12 +4,13 @@ import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import model.TM.ManageStudentTM;
 import model.tm.ManageStudentTM;
 import service.menu.ManageStudentFormService;
 
 import java.util.Optional;
 
-public class ManageStudentFormController {
+public class ManageStudentFormController<JFXButton> {
 
     public TextField txtSearch;
     public TableView<ManageStudentTM> tblStudent;
