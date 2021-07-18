@@ -1,0 +1,113 @@
+.anchor-color{
+    -fx-background-color: #7f8c8d;
+}
+
+.button{
+    -fx-background-color: #576574;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: #2f3640;
+}
+
+.list-view{
+    -fx-background-color: #7f8c8d;
+    -fx-border-color: transparent;
+}
+
+.list-view .list-cell{
+    -fx-padding: 2 0 2 10px;
+    -fx-text-fill: white;  //////////////////////////////////////
+}
+
+.list-row-cell:hover {
+    -fx-background-color: #93f9b911;
+}
+
+.text-field{
+    -fx-text-fill: white;
+}
+
+.search-course{
+    -fx-background-color: transparent;
+    -fx-border-radius: 4px;
+    -fx-border-color: #2c3e50;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(0,0,0,0.2);
+    -fx-background-insets: 0px, 0px;
+    -fx-padding: 0;
+}
+.column-header{
+    -fx-background-color: #778182;
+    -fx-size: 40px;
+    -fx-font-size: 14px;
+}
+.table-row-cell:empty{
+    -fx-background-color: transparent;
+}
+
+.cell{
+    -fx-wrap-text: true;
+    -fx-text-fill: white;
+    -fx-cell-size: 25px;
+    -fx-alignment: center;
+}
+
+#tblStudent .cell{
+    -fx-wrap-text: true;
+    -fx-text-fill: white;
+    -fx-cell-size: 30px;
+    -fx-alignment: center;
+}
+
+.table-cell:empty{
+    -fx-border-color: transparent;
+}
+
+.table-row-cell:filled:odd{
+    -fx-background-color: #636e72;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:filled:even{
+    -fx-background-color: #5d6676;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:filled:hover{
+    -fx-background-color:  #778182;
+    -fx-background-insets: 0px 1px 0px 1px;
+    -fx-background-radius: 4px;
+}
+
+.table-row-cell:filled:selected{
+    -fx-background-color: rgba(201, 201, 201, 0.71);
+    -fx-background-insets: 0px 1px 0px 1px;
+    -fx-background-radius: 4px;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.list-cell{
+    -fx-background-color: transparent;
+}
+
+.list-cell:filled:hover{
+    -fx-background-color: #778182;
+}
+
+#deleteButton{
+    -fx-background-color: red;
+}
