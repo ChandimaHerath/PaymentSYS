@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="670.0" prefWidth="826.0" styleClass="anchor-color" stylesheets="@../css/SideMenuItem.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.menu.ManageStudentFormController">
+   <children>
+      <TextField fx:id="txtSearch" layoutX="21.0" layoutY="14.0" promptText="Search  Student" styleClass="search-course" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TableView id="tblStudent" fx:id="tblStudent" layoutX="14.0" layoutY="55.0" prefHeight="334.0" prefWidth="796.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+        <columns>
+          <TableColumn prefWidth="87.0" text="Course ID" />
+          <TableColumn prefWidth="128.0" text="NIC" />
+            <TableColumn prefWidth="150.0" text="Name" />
+            <TableColumn prefWidth="118.0" text="Contact" />
+            <TableColumn prefWidth="153.0" text="Address" />
+            <TableColumn prefWidth="166.0" text="E-mail" />
+        </columns>
+      </TableView>
+      <ListView fx:id="lstStudent" editable="true" layoutX="269.0" layoutY="397.0" prefHeight="174.0" prefWidth="326.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" />
+      <JFXButton id="deleteButton" fx:id="btnDelete" layoutX="435.0" layoutY="582.0" onAction="#btnDeleteOnAction" text="Delete" visible="false" />
+      <JFXButton fx:id="btnSave" layoutX="512.0" layoutY="583.0" onAction="#btnSaveOnAction" text="Save" visible="false" />
+   </children>
+
+</AnchorPane>
